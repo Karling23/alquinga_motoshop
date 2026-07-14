@@ -50,7 +50,7 @@ jobs:
             rm -rf /var/www/alquinga-motoshop/*
             cp -r /tmp/react_build/dist/* /var/www/alquinga-motoshop/
 
-            chown -R www-data:www-data /var/www/alquinga_motoshop
+            chown -R www-data:www-data /var/www/alquinga-motoshop
 
             nginx -t
             systemctl reload nginx
